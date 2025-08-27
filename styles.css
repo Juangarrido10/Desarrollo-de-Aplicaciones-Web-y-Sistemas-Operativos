@@ -4,23 +4,40 @@ body {
 }
 
 header {
-  background: #97b8ff;
+  background: #2553e9;
   color: white;
   padding: 1rem;
   text-align: center;
 }
+#sobreMi {
+    background-color: #2553e9;
+    padding: 0.5rem;
+    margin-right: 80%;
+    color: white;
 
+}
+.navbar {
+    background-color: rgb(63, 146, 255);
+    padding: 0.8rem;
+    text-align: right;
+    
+}
 .card {
   border: 1px solid #ccc;
   padding: 1rem;
   margin: 1rem;
 }
+#email, #name,  #date {
+    color: rgb(0, 0, 0);
+
+}
 
 @media (max-width: 600px) {
-  .card {
-    background: #f0f0f0;
+    .card {
+        background-color: rgb(42, 106, 190);
+    }
   }
-}
+
 .dark {
   background: black;
   color: white;

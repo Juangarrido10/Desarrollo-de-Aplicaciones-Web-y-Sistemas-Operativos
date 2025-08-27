@@ -5,16 +5,24 @@
   <title>Ejemplo HTML</title>
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body id="toggle">
+    <div class="navbar">
+        <a href="#inicio">inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#productos">Productos</a>
+        <a href="#contactos">Contactos</a>
+    </div>
   <header>
     <h1> Página de Repaso</h1>
   </header>
   <main>
-    <section>
-        <h2>sobre mi   </h2>
+    <section class="card">
+        <h2 id="sobreMi">Sobre mi   </h2>
         <P>Estudiante de Ingenieria de sistemas.</P>
+        <button id="btn">Haz click aqui</button>
+        <p id="message"></p>
     </section>
-    <section>
+    <section class="card">
         <form >
             <label for="email">Correo:  </label>
             <input type="email" id="email" required>
@@ -42,4 +50,5 @@
     <p>&copy; Todos los derechos reservados 2025.  </p>
   </footer>
 </body>
+<script src="script.js"></script>
 </html>
